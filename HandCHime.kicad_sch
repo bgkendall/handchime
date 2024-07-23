@@ -2671,12 +2671,12 @@
 				)
 			)
 		)
-		(symbol "Project Library:MCU_CM552E_MSOP-10"
+		(symbol "Project Library:MCU_CH552T_TSSOP-20"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U1"
-				(at 0.254 16.51 0)
+				(at 0.254 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2684,7 +2684,7 @@
 				)
 			)
 			(property "Value" "CH552T"
-				(at 0.254 13.97 0)
+				(at 0.254 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2701,8 +2701,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 -12.7 0)
+			(property "Datasheet" "https://www.wch-ic.com/downloads/file/309.html"
+				(at 0 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2720,7 +2720,7 @@
 				)
 			)
 			(property "LCSC" "C111367"
-				(at 0 -18.796 0)
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2728,16 +2728,7 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey" "n/a"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MCU_CM552E_MSOP-10_0_1"
+			(symbol "MCU_CH552T_TSSOP-20_0_1"
 				(rectangle
 					(start -8.89 10.16)
 					(end 8.89 -15.24)
@@ -2750,15 +2741,7 @@
 					)
 				)
 			)
-			(symbol "MCU_CM552E_MSOP-10_1_1"
-				(text "CH552T\n"
-					(at 0 11.176 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
+			(symbol "MCU_CH552T_TSSOP-20_1_1"
 				(pin input line
 					(at -11.43 8.89 0)
 					(length 2.54)
@@ -8461,17 +8444,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Project Library:MCU_CM552E_MSOP-10")
+		(lib_id "Project Library:MCU_CH552T_TSSOP-20")
 		(at 228.6 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fbf1f70f-b75a-4021-bdf3-10d7a070886d")
 		(property "Reference" "U1"
-			(at 228.854 31.75 0)
+			(at 228.6 34.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8479,7 +8461,7 @@
 			)
 		)
 		(property "Value" "CH552T"
-			(at 228.854 34.29 0)
+			(at 228.6 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8496,8 +8478,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 228.6 60.96 0)
+		(property "Datasheet" "https://www.wch-ic.com/downloads/file/309.html"
+			(at 228.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8515,7 +8497,7 @@
 			)
 		)
 		(property "LCSC" "C111367"
-			(at 228.6 67.056 0)
+			(at 228.6 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
