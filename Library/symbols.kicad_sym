@@ -84,7 +84,7 @@
 			(pin input line
 				(at -3.81 -15.24 90)
 				(length 2.54)
-				(name "P17"
+				(name "${PIN10}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -102,7 +102,7 @@
 			(pin input line
 				(at -1.27 -15.24 90)
 				(length 2.54)
-				(name "P16"
+				(name "${PIN11}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -120,7 +120,7 @@
 			(pin input line
 				(at 1.27 -15.24 90)
 				(length 2.54)
-				(name "P15"
+				(name "${PIN12}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -138,7 +138,7 @@
 			(pin input line
 				(at 3.81 -15.24 90)
 				(length 2.54)
-				(name "P14"
+				(name "${PIN13}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -192,7 +192,7 @@
 			(pin input line
 				(at 27.94 -6.35 180)
 				(length 2.54)
-				(name "TX"
+				(name "${PIN16}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -210,7 +210,7 @@
 			(pin input line
 				(at 27.94 -3.81 180)
 				(length 2.54)
-				(name "RX"
+				(name "${PIN17}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -282,7 +282,7 @@
 			(pin input line
 				(at 27.94 3.81 180)
 				(length 2.54)
-				(name "P33"
+				(name "${PIN20}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -336,7 +336,7 @@
 			(pin input line
 				(at -27.94 3.81 0)
 				(length 2.54)
-				(name "P13"
+				(name "${PIN3}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -372,7 +372,7 @@
 			(pin input line
 				(at -27.94 -1.27 0)
 				(length 2.54)
-				(name "P12"
+				(name "${PIN5}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -390,7 +390,7 @@
 			(pin input line
 				(at -27.94 -3.81 0)
 				(length 2.54)
-				(name "P11"
+				(name "${PIN6}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -408,7 +408,7 @@
 			(pin input line
 				(at -27.94 -6.35 0)
 				(length 2.54)
-				(name "P10"
+				(name "${PIN7}"
 					(effects
 						(font
 							(size 1.27 1.27)
