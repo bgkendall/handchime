@@ -1124,7 +1124,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.wch-ic.com/downloads/file/309.html"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3061,7 +3061,7 @@
 		(path "/cf1badd4-2ad7-4c1d-a357-a7bc58eeec26")
 		(sheetname "Root")
 		(sheetfile "HandCHime.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 4.04 0)
 			(unlocked yes)
