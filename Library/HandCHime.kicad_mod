@@ -4,9 +4,10 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2.54 0)
+		(at 0 5.588 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "610fdd24-7631-4fcc-b723-d5b3b47c79a8")
 		(effects
 			(font
@@ -138,7 +139,7 @@
 		(uuid "cd8796b5-161e-460d-afab-7400c3df8ccb")
 	)
 	(pad "8" thru_hole roundrect
-		(at -17.78 0)
+		(at -15.24 0)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -195,7 +196,7 @@
 		(uuid "e081826c-3768-4c96-ade8-df0620542d3f")
 	)
 	(pad "15" thru_hole roundrect
-		(at 17.78 0)
+		(at 15.24 0)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
