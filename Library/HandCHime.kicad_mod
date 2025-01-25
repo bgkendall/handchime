@@ -110,7 +110,7 @@
 			(justify left mirror)
 		)
 	)
-	(fp_text user "3V3"
+	(fp_text user "+5V"
 		(at -16.51 -10.16 0)
 		(unlocked yes)
 		(layer "B.SilkS")
@@ -138,7 +138,7 @@
 			(justify right mirror)
 		)
 	)
-	(fp_text user "3V3"
+	(fp_text user "+5V"
 		(at 16.51 -10.16 0)
 		(unlocked yes)
 		(layer "B.SilkS")
@@ -362,7 +362,7 @@
 			(justify right mirror)
 		)
 	)
-	(fp_text user "+5V"
+	(fp_text user "3V3"
 		(at 16.51 -7.62 0)
 		(unlocked yes)
 		(layer "B.SilkS")

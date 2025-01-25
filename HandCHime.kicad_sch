@@ -2438,7 +2438,7 @@
 				(pin power_out line
 					(at 27.94 -1.27 180)
 					(length 2.54)
-					(name "5V"
+					(name "3.3V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2456,7 +2456,7 @@
 				(pin power_out line
 					(at 27.94 1.27 180)
 					(length 2.54)
-					(name "3V3"
+					(name "5V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2564,7 +2564,7 @@
 				(pin power_out line
 					(at -27.94 1.27 0)
 					(length 2.54)
-					(name "3V3"
+					(name "5V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6116,8 +6116,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 237.49 138.43 270)
-		(mirror x)
+		(at 237.49 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6125,7 +6124,7 @@
 		(dnp no)
 		(uuid "2e783d78-2116-4dac-8092-7db8f2fca4ee")
 		(property "Reference" "#PWR011"
-			(at 233.68 138.43 0)
+			(at 233.68 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6133,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 241.3 138.4299 90)
+			(at 241.3 140.9701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 138.43 0)
+			(at 237.49 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 138.43 0)
+			(at 237.49 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6160,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 138.43 0)
+			(at 237.49 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,6 +6439,72 @@
 			(project "ISOCHet"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 170.18 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f13c619-be2b-461a-84bf-d24e6f685f33")
+		(property "Reference" "#PWR017"
+			(at 173.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 166.37 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 170.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa7fec2e-aa03-4efe-bf1e-0df7bab5d00a")
+		)
+		(instances
+			(project "HandCHime"
+				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7140,8 +7205,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 237.49 140.97 270)
-		(mirror x)
+		(at 237.49 138.43 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7149,7 +7213,7 @@
 		(dnp no)
 		(uuid "7bfbc8fc-c6ca-41f7-8e61-08347bc29d2e")
 		(property "Reference" "#PWR010"
-			(at 233.68 140.97 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +7222,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 241.3 140.9699 90)
+			(at 241.3 138.4301 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 140.97 0)
+			(at 237.49 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +7240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 140.97 0)
+			(at 237.49 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,7 +7249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 237.49 140.97 0)
+			(at 237.49 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7420,73 +7484,6 @@
 			(project "ISOCHet"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 170.18 138.43 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bf42608-c97f-427e-93c3-ca90b5a84d88")
-		(property "Reference" "#PWR017"
-			(at 173.99 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 166.37 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "541ac7e2-abd9-462d-b384-ce80dfe9a11d")
-		)
-		(instances
-			(project "HandCHime"
-				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
