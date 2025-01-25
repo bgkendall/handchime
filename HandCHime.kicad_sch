@@ -5828,7 +5828,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 223.52 77.47 90)
 			(effects
 				(font
@@ -7297,7 +7297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:SW_SPST_SKQG_WithStem"
+		(property "Footprint" "Project Library:SW_SPST_B3U-1000P"
 			(at 234.95 76.2 0)
 			(effects
 				(font
