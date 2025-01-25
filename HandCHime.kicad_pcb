@@ -592,7 +592,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "311-10.0KHR"
+		(property "DigiKey" "311-5.10KHR"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -604,7 +604,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C23186"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3567,7 +3567,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.1470588235)
 			(net 1 "VCC")
-			(pinfunction "+5V")
+			(pinfunction "5V")
 			(pintype "power_out")
 			(uuid "9b97c80d-6995-4b54-bd42-94119a9f3e99")
 		)
@@ -3736,7 +3736,7 @@
 			(remove_unused_layers no)
 			(roundrect_rratio 0.1470588235)
 			(net 1 "VCC")
-			(pinfunction "+5V")
+			(pinfunction "5V")
 			(pintype "power_out")
 			(uuid "133648b1-eb79-4f59-adaa-eecb8b736aeb")
 		)
@@ -4805,7 +4805,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C115351"
+		(property "LCSC" "C231329"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4818,7 +4818,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "4809-SKQGABE010"
+		(property "DigiKey" "SW1020CT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

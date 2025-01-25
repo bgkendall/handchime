@@ -5863,7 +5863,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "LCSC" "C23186"
 			(at 223.52 81.28 90)
 			(effects
 				(font
@@ -5872,7 +5872,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "311-10.0KHR"
+		(property "DigiKey" "311-5.10KHR"
 			(at 223.52 81.28 90)
 			(effects
 				(font
@@ -7388,7 +7388,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C115351"
+		(property "LCSC" "C231329"
 			(at 234.95 81.28 0)
 			(effects
 				(font
@@ -7397,7 +7397,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "4809-SKQGABE010"
+		(property "DigiKey" "SW1020CT-ND"
 			(at 234.95 81.28 0)
 			(effects
 				(font
