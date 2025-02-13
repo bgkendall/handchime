@@ -4697,7 +4697,7 @@
 	)
 	(global_label "R0"
 		(shape input)
-		(at 240.03 49.53 0)
+		(at 240.03 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4707,7 +4707,7 @@
 		)
 		(uuid "6ef72cd4-7c03-494d-8ed7-5a7e3a86413e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.4947 49.53 0)
+			(at 245.4947 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,9 +4739,9 @@
 			)
 		)
 	)
-	(global_label "P12"
+	(global_label "P13"
 		(shape input)
-		(at 240.03 46.99 0)
+		(at 240.03 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4751,7 +4751,7 @@
 		)
 		(uuid "73af3252-b9e7-4c7f-a39d-d112951609d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.7042 46.99 0)
+			(at 246.7042 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5223,7 @@
 			)
 		)
 	)
-	(global_label "P12"
+	(global_label "P13"
 		(shape input)
 		(at 205.74 154.94 270)
 		(fields_autoplaced yes)
@@ -7781,7 +7781,7 @@
 				(hide yes)
 			)
 		)
-		(property "PIN12" "12"
+		(property "PIN12" "13"
 			(at 204.47 139.7 0)
 			(effects
 				(font
