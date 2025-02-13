@@ -220,6 +220,20 @@
 		(uuid "950f98fb-a768-43cf-957b-3a4fad696344")
 	)
 	(fp_text user "${VALUE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "25bdb24e-47f2-4810-a32a-9c5e8bcf1168")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify top mirror)
+		)
+	)
+	(fp_text user "${VALUE}"
 		(at 0 -1.75 0)
 		(unlocked yes)
 		(layer "F.Mask")
@@ -533,28 +547,32 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.7 0)
 		(size 0.9 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "f5178655-4ae4-4e7c-b5bb-a79d990d08a6")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.7 0)
 		(size 0.9 2.2)
 		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "83406833-4360-4037-af02-798b2696a152")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.7 0)
 		(size 0.9 1.7)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "6f994d3d-2800-47d5-b256-665b170cf7f7")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.7 0)
 		(size 0.9 2.2)
 		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "5c84f8ea-fe3c-49fb-81df-1826e290eba6")
 	)
 	(zone

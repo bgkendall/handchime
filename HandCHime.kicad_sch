@@ -6684,7 +6684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Project Library:D_SOD-323"
 			(at 136.652 40.64 0)
 			(effects
 				(font
