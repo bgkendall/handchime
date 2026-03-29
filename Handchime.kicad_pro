@@ -494,7 +494,7 @@
     ]
   },
   "meta": {
-    "filename": "HandCHime.kicad_pro",
+    "filename": "Handchime.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -699,8 +699,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "HandCHime.kicad_sch",
-        "name": "HandCHime",
+        "filename": "Handchime.kicad_sch",
+        "name": "Handchime",
         "uuid": "34400e51-cf83-464a-b3ec-e9a28a972a27"
       }
     ],
@@ -710,7 +710,7 @@
   "sheets": [
     [
       "34400e51-cf83-464a-b3ec-e9a28a972a27",
-      "HandCHime"
+      "Handchime"
     ]
   ],
   "text_variables": {},

@@ -243,7 +243,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/002e2f51-5cac-4992-a6a9-8fb3446d226e")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -447,7 +447,7 @@
 		(property ki_fp_filters "Net*Tie*")
 		(path "/c583f5e2-96ed-4140-8465-96afe610de40")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
@@ -563,7 +563,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/14e04d78-a1c0-4955-a150-49a43cd3b599")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -791,7 +791,7 @@
 		(property ki_fp_filters "SOT?143*")
 		(path "/3f5ac4f9-039c-40cb-a2e9-b2881fd8913b")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1060,7 +1060,7 @@
 		)
 		(path "/fbf1f70f-b75a-4021-bdf3-10d7a070886d")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1510,7 +1510,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/74ee0d29-c278-4e28-9431-626e41ed0884")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1738,7 +1738,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/008465a1-50ee-40b0-8291-a1d67e58a999")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2048,7 +2048,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/739799ea-4afe-4c9d-9279-12f558b50420")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2324,7 +2324,7 @@
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/d6a4c064-77ae-4368-97e3-6be11fc93a8f")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr exclude_from_pos_files allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
 		(duplicate_pad_numbers_are_jumpers no)
@@ -2441,7 +2441,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1acc96d6-32ba-4ed7-812a-f72c43fe6534")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2667,7 +2667,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fc26cc2a-3b39-4646-9a0b-85f4b2d88f2e")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2812,7 +2812,7 @@
 			)
 		)
 	)
-	(footprint "Project Library:HandCHime"
+	(footprint "Project Library:Handchime"
 		(layer "F.Cu")
 		(uuid "a6058938-1d75-423c-b817-526ee9addf8c")
 		(at 158.75 58.928)
@@ -3012,7 +3012,7 @@
 		)
 		(path "/cf1badd4-2ad7-4c1d-a357-a7bc58eeec26")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "R0"
@@ -3669,7 +3669,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/48a0b297-8c5e-4db7-8599-e4b94987e9c7")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4060,7 +4060,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e549c6a2-4113-4c95-9b2c-190f991d1e46")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4288,7 +4288,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/77a0ae9b-4bc0-4772-a529-2998fbc52481")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4598,7 +4598,7 @@
 		)
 		(path "/8778d56f-ba92-42da-b175-689b6189abfb")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5001,7 +5001,7 @@
 		)
 		(path "/1325a808-2258-457a-bac8-d2990a2c2f31")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5280,7 +5280,7 @@
 		)
 		(path "/87e9de80-764a-43e3-b463-ec71c5f78cce")
 		(sheetname "Root")
-		(sheetfile "HandCHime.kicad_sch")
+		(sheetfile "Handchime.kicad_sch")
 		(attr through_hole exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6074,7 +6074,7 @@
 			)
 		)
 	)
-	(gr_text "HandCHime"
+	(gr_text "Handchime"
 		(at 147.955 57.15 0)
 		(layer "F.Mask")
 		(uuid "67bee8a7-fe33-4307-be5f-10a4fcaaf646")
@@ -6086,7 +6086,7 @@
 				(bold yes)
 			)
 		)
-		(render_cache "HandCHime" 0
+		(render_cache "Handchime" 0
 			(polygon
 				(pts
 					(xy 143.937157 56.348313) (xy 143.937157 57.6895) (xy 143.672984 57.6895) (xy 143.672984 57.145913)
