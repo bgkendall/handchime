@@ -564,6 +564,9 @@
     "netclass_assignments": {
       "Net-(D1-A)": [
         "Power"
+      ],
+      "Net-(R5-Pad2)": [
+        "Boot"
       ]
     },
     "netclass_patterns": [
@@ -704,7 +707,7 @@
         "uuid": "34400e51-cf83-464a-b3ec-e9a28a972a27"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J3-4,SW3,U3-4,TP1-2,R4-5,C3-7,#PWR8,#PWR11,#PWR13-14,#PWR19,#PWR24-31,#PWR101-102",
     "variants": []
   },
   "sheets": [
