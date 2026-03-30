@@ -63,8 +63,8 @@
 		)
 		(symbol "Handchime_0_1"
 			(rectangle
-				(start -25.4 11.43)
-				(end 25.4 -11.43)
+				(start -25.4 7.62)
+				(end 25.4 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -75,10 +75,10 @@
 			)
 		)
 		(symbol "Handchime_1_1"
-			(pin input line
-				(at -27.94 7.62 0)
+			(pin power_out line
+				(at -2.54 10.16 270)
 				(length 2.54)
-				(name "Row0"
+				(name "5V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -94,9 +94,9 @@
 				)
 			)
 			(pin power_out line
-				(at -27.94 5.08 0)
+				(at 2.54 10.16 270)
 				(length 2.54)
-				(name "GND"
+				(name "3.3V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -111,10 +111,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -27.94 2.54 0)
+			(pin power_out line
+				(at 0 -10.16 90)
 				(length 2.54)
-				(name "${PIN3}"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -129,10 +129,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -27.94 0 0)
+			(pin input line
+				(at -27.94 3.81 0)
 				(length 2.54)
-				(name "3.3V"
+				(name "Row0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -148,7 +148,7 @@
 				)
 			)
 			(pin input line
-				(at -27.94 -2.54 0)
+				(at -27.94 1.27 0)
 				(length 2.54)
 				(name "${PIN5}"
 					(effects
@@ -166,7 +166,7 @@
 				)
 			)
 			(pin input line
-				(at -27.94 -5.08 0)
+				(at -27.94 -1.27 0)
 				(length 2.54)
 				(name "${PIN6}"
 					(effects
@@ -183,10 +183,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -27.94 -8.89 0)
+			(pin input line
+				(at -27.94 -3.81 0)
 				(length 2.54)
-				(name "GND"
+				(name "${PIN7}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -202,7 +202,7 @@
 				)
 			)
 			(pin input line
-				(at -16.51 -13.97 90)
+				(at -16.51 -10.16 90)
 				(length 2.54)
 				(name "${PIN8}"
 					(effects
@@ -220,7 +220,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 -13.97 90)
+				(at -13.97 -10.16 90)
 				(length 2.54)
 				(name "${PIN9}"
 					(effects
@@ -238,7 +238,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -13.97 90)
+				(at -11.43 -10.16 90)
 				(length 2.54)
 				(name "${PIN10}"
 					(effects
@@ -256,7 +256,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -13.97 90)
+				(at -8.89 -10.16 90)
 				(length 2.54)
 				(name "${PIN11}"
 					(effects
@@ -274,7 +274,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 -13.97 90)
+				(at -6.35 -10.16 90)
 				(length 2.54)
 				(name "Col1"
 					(effects
@@ -292,7 +292,7 @@
 				)
 			)
 			(pin input line
-				(at -3.81 -13.97 90)
+				(at -3.81 -10.16 90)
 				(length 2.54)
 				(name "${PIN13}"
 					(effects
@@ -310,7 +310,7 @@
 				)
 			)
 			(pin input line
-				(at 3.81 -13.97 90)
+				(at 3.81 -10.16 90)
 				(length 2.54)
 				(name "${PIN14}"
 					(effects
@@ -328,7 +328,7 @@
 				)
 			)
 			(pin input line
-				(at 6.35 -13.97 90)
+				(at 6.35 -10.16 90)
 				(length 2.54)
 				(name "${PIN15}"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -13.97 90)
+				(at 8.89 -10.16 90)
 				(length 2.54)
 				(name "${PIN16}"
 					(effects
@@ -364,7 +364,7 @@
 				)
 			)
 			(pin input line
-				(at 11.43 -13.97 90)
+				(at 11.43 -10.16 90)
 				(length 2.54)
 				(name "${PIN17}"
 					(effects
@@ -382,7 +382,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -13.97 90)
+				(at 13.97 -10.16 90)
 				(length 2.54)
 				(name "Col0"
 					(effects
@@ -400,7 +400,7 @@
 				)
 			)
 			(pin input line
-				(at 16.51 -13.97 90)
+				(at 16.51 -10.16 90)
 				(length 2.54)
 				(name "${PIN19}"
 					(effects
@@ -417,10 +417,10 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 27.94 -8.89 180)
+			(pin input line
+				(at 27.94 -2.54 180)
 				(length 2.54)
-				(name "GND"
+				(name "${PIN20}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -436,7 +436,7 @@
 				)
 			)
 			(pin input line
-				(at 27.94 -5.08 180)
+				(at 27.94 0 180)
 				(length 2.54)
 				(name "${PIN21}"
 					(effects
@@ -454,7 +454,7 @@
 				)
 			)
 			(pin input line
-				(at 27.94 -2.54 180)
+				(at 27.94 2.54 180)
 				(length 2.54)
 				(name "${PIN22}"
 					(effects
@@ -464,78 +464,6 @@
 					)
 				)
 				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 27.94 0 180)
-				(length 2.54)
-				(name "5V"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 27.94 2.54 180)
-				(length 2.54)
-				(name "${PIN24}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 27.94 5.08 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 27.94 7.62 180)
-				(length 2.54)
-				(name "Row0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
