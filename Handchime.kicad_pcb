@@ -931,15 +931,16 @@
 		)
 	)
 	(footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0844c412-99ec-49a0-a14d-efad48022081")
-		(at 158.739 40.679 180)
+		(at 158.739 42.2763 180)
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J1"
 			(at 0 -0.915 0)
 			(layer "F.SilkS")
-			(uuid "167e45a6-2560-4fff-839f-144cbd21e3a4")
+			(uuid "0422db9e-7db5-40d2-a6a9-6cc5168d1ae4")
 			(effects
 				(font
 					(size 1 1)
@@ -950,7 +951,7 @@
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
 			(at 0 5.100001 0)
 			(layer "F.Fab")
-			(uuid "302456e7-b159-4e59-857c-a3c384564eb2")
+			(uuid "ce4df1f9-36d4-4c06-80fd-0e396a469fbd")
 			(effects
 				(font
 					(size 1 1)
@@ -963,7 +964,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d1df107-792a-4a72-9fc1-695381719637")
+			(uuid "66791914-2d21-4807-be50-aef9e8b66987")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +977,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a1bc6ef1-b252-43bf-a984-d87467ce7da8")
+			(uuid "2f625253-7a6f-440f-a552-796e4a5f5b14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,6 +7290,58 @@
 		(layer "B.Cu")
 		(uuid "52d7a96a-24c4-4023-b46c-e738063994de")
 	)
+	(gr_poly
+		(pts
+			(arc
+				(start 154.419 46.4563)
+				(mid 154.772553 46.309853)
+				(end 154.919 45.9563)
+			)
+			(arc
+				(start 154.919 44.8563)
+				(mid 154.772553 44.502747)
+				(end 154.419 44.3563)
+			)
+			(arc
+				(start 154.419 44.3563)
+				(mid 154.065447 44.502747)
+				(end 153.919 44.8563)
+			)
+			(arc
+				(start 153.919 45.9563)
+				(mid 154.065447 46.309853)
+				(end 154.419 46.4563)
+			)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Cmts.User")
+		(uuid "d53791b0-4fb2-4b84-b912-5138c8374b78")
+	)
+	(gr_line
+		(start 151.725 44.3563)
+		(end 154.419 44.3563)
+		(stroke
+			(width 0.04)
+			(type dot)
+		)
+		(layer "Cmts.User")
+		(uuid "1dd3c094-e991-4359-b3fd-7157d198dbf2")
+	)
+	(gr_circle
+		(center 151.725 45.5063)
+		(end 152.875 45.5063)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Cmts.User")
+		(uuid "83981012-c7ca-4b1e-9661-39dfa7fb96bf")
+	)
 	(gr_line
 		(start 138.43 40.64)
 		(end 152.616 40.64)
@@ -7980,16 +8033,15 @@
 			)
 		)
 	)
-	(gr_text "USB Port Y should be 42.164mm"
-		(at 158.739 36.322 0)
+	(gr_text "Alps pin 2"
+		(at 150.368 46.452371 90)
 		(layer "Cmts.User")
-		(uuid "2590099f-18db-4efb-9e22-15ad9ce79027")
+		(uuid "1a4df017-6565-4a16-a7ff-9677fc7d96fe")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
 			)
-			(justify bottom)
+			(justify left bottom)
 		)
 	)
 	(segment
