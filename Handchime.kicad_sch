@@ -724,7 +724,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
+		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -744,8 +744,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -776,7 +776,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -809,10 +809,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x01_1_1"
+			(symbol "Conn_01x02_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 1.27 -1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -832,6 +832,17 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -843,6 +854,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6481,6 +6510,30 @@
 			)
 		)
 	)
+	(global_label "BOOT0{slash}SWCLK"
+		(shape output)
+		(at 254 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3cac13a-c5c8-457c-82cf-7bbdc123dd27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.5047 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PB7"
 		(shape input)
 		(at 193.04 149.86 270)
@@ -7539,7 +7592,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
+		(lib_id "Connector_Generic:Conn_01x02")
 		(at 259.08 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -7551,7 +7604,7 @@
 		(fields_autoplaced yes)
 		(uuid "3880e6c1-7efa-4bc0-8dd7-c267cf245614")
 		(property "Reference" "J3"
-			(at 261.62 64.77 0)
+			(at 261.62 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7562,7 +7615,7 @@
 			)
 		)
 		(property "Value" "SWD"
-			(at 261.62 67.31 0)
+			(at 261.62 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7572,7 +7625,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 259.08 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7594,7 +7647,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 259.08 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7607,6 +7660,9 @@
 		)
 		(pin "1"
 			(uuid "e9df4c6d-7c2e-4f8b-8b62-37f485109c5f")
+		)
+		(pin "2"
+			(uuid "a46cae6c-c7a8-49a0-bdc0-ca05b39cac1c")
 		)
 		(instances
 			(project "Handchime"
