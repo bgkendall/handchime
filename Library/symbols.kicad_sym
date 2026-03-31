@@ -453,10 +453,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 27.94 2.54 180)
 				(length 2.54)
-				(name "${PIN22}"
+				(name "RGB"
 					(effects
 						(font
 							(size 1.27 1.27)

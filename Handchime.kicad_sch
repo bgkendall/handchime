@@ -3682,10 +3682,10 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 27.94 2.54 180)
 					(length 2.54)
-					(name "${PIN22}"
+					(name "RGB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4914,6 +4914,26 @@
 		)
 		(uuid "fd413d39-399f-4f5d-9921-efe047970150")
 	)
+	(text_box "Optional — remove/do not place if using pin for matrix, etc."
+		(exclude_from_sim no)
+		(at 238.76 45.72 0)
+		(size 17.78 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify bottom)
+		)
+		(uuid "6bca83fd-7d15-4ccd-abc5-f340aa5f434e")
+	)
 	(junction
 		(at 138.43 149.86)
 		(diameter 0)
@@ -5178,6 +5198,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 48.26) (xy 251.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ba8ba5-36b4-48de-847d-a935b3f16f07")
+	)
+	(wire
+		(pts
 			(xy 133.35 149.86) (xy 138.43 149.86)
 		)
 		(stroke
@@ -5275,6 +5305,16 @@
 			(type default)
 		)
 		(uuid "bba183c8-ae92-4135-808b-6fc8573f336e")
+	)
+	(wire
+		(pts
+			(xy 236.22 48.26) (xy 243.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0f71a1-2038-4368-813a-30ea84ddf4a9")
 	)
 	(wire
 		(pts
@@ -5430,7 +5470,7 @@
 			)
 		)
 	)
-	(global_label "PB0"
+	(global_label "RGB"
 		(shape input)
 		(at 232.41 137.16 0)
 		(fields_autoplaced yes)
@@ -5442,7 +5482,7 @@
 		)
 		(uuid "044e14ea-6aee-4e13-8a35-b83c23c7c98c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.3305 137.16 0)
+			(at 238.4645 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5790,6 +5830,30 @@
 			)
 		)
 	)
+	(global_label "RGB"
+		(shape input)
+		(at 236.22 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5338ccf9-fb1f-4377-b12e-9d69b80a2fc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.1655 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PB3"
 		(shape input)
 		(at 176.53 140.97 180)
@@ -5910,30 +5974,6 @@
 			)
 		)
 	)
-	(global_label "PB0"
-		(shape input)
-		(at 179.07 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6d0ab852-f206-4cf9-ba0a-ee4a08e31445")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.1495 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "PA5"
 		(shape input)
 		(at 220.98 149.86 270)
@@ -5947,6 +5987,30 @@
 		(uuid "79865616-543b-413c-9845-d9255ab217b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 220.98 155.5087 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RGB"
+		(shape input)
+		(at 179.07 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7990290b-825f-414b-bbe7-a9808d974306")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.0155 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6826,6 +6890,84 @@
 			(project "Handchime"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 259.08 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b18bbd5-7854-4d7d-a8c2-ee32816a761c")
+		(property "Reference" "#PWR04"
+			(at 259.08 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 259.08 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd781e01-fcaa-4add-99d2-ec8e73a5d3fb")
+		)
+		(instances
+			(project "Handchime"
+				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9307,6 +9449,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 247.65 48.26 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85011ac8-a257-4ac2-a5c6-a3593e529ef0")
+		(property "Reference" "R3"
+			(at 247.65 53.086 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 247.65 50.546 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 247.65 46.482 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23186"
+			(at 247.65 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "311-5.10KHR"
+			(at 247.65 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54d42b95-f24c-4570-90c5-8e554cc8845d")
+		)
+		(pin "2"
+			(uuid "a14695b0-81b3-49c0-8d63-df6ca6f26026")
+		)
+		(instances
+			(project "Handchime"
+				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 34.29 134.62 0)
 		(mirror y)
@@ -10329,17 +10573,6 @@
 			)
 		)
 		(property "PIN10" "B8"
-			(at 204.47 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PIN22" "A0"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
