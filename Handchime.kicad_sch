@@ -10517,7 +10517,7 @@
 				)
 			)
 		)
-		(property "PIN5" "B3"
+		(property "PIN5" "PA15"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10528,7 +10528,7 @@
 				)
 			)
 		)
-		(property "PIN6" "B4"
+		(property "PIN6" "PB3"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10539,7 +10539,7 @@
 				)
 			)
 		)
-		(property "PIN7" "B5"
+		(property "PIN7" "PB4"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10550,7 +10550,7 @@
 				)
 			)
 		)
-		(property "PIN8" "B6"
+		(property "PIN8" "PB5"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10561,7 +10561,7 @@
 				)
 			)
 		)
-		(property "PIN9" "B7"
+		(property "PIN9" "PB6"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10572,7 +10572,7 @@
 				)
 			)
 		)
-		(property "PIN10" "B8"
+		(property "PIN10" "PB7"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10583,7 +10583,7 @@
 				)
 			)
 		)
-		(property "PIN11" "A1"
+		(property "PIN11" "PB8"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10594,7 +10594,7 @@
 				)
 			)
 		)
-		(property "PIN13" "A2"
+		(property "PIN13" "PA0"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10605,7 +10605,7 @@
 				)
 			)
 		)
-		(property "PIN14" "A3"
+		(property "PIN14" "PA1"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10616,7 +10616,7 @@
 				)
 			)
 		)
-		(property "PIN15" "A4"
+		(property "PIN15" "PA2"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10627,7 +10627,7 @@
 				)
 			)
 		)
-		(property "PIN16" "A5"
+		(property "PIN16" "PA3"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10638,7 +10638,7 @@
 				)
 			)
 		)
-		(property "PIN17" "A6"
+		(property "PIN17" "PA4"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10649,7 +10649,7 @@
 				)
 			)
 		)
-		(property "PIN19" "A7"
+		(property "PIN19" "PA5"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10660,7 +10660,7 @@
 				)
 			)
 		)
-		(property "PIN20" "B0"
+		(property "PIN20" "PA6"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10671,7 +10671,7 @@
 				)
 			)
 		)
-		(property "PIN21" "B1"
+		(property "PIN21" "PA7"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
