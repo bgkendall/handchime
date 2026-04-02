@@ -7318,7 +7318,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1Ω"
 			(at 62.23 42.418 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7630,6 +7630,17 @@
 			)
 		)
 		(property "DigiKey" "311-5.10KHR"
+			(at 233.68 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "1万Ω"
 			(at 233.68 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -9470,7 +9481,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1Ω"
 			(at 247.65 50.546 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10860,7 +10871,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "5k1Ω"
 			(at 62.23 49.276 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10962,7 +10973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4µ7F"
 			(at 168.91 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
