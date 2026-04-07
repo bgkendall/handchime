@@ -7412,6 +7412,17 @@
 				)
 			)
 		)
+		(property "Label" "1"
+			(at 62.23 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df0d30ea-7eb6-4e4b-937c-14a8bd8a594b")
 		)
@@ -11036,6 +11047,17 @@
 			)
 		)
 		(property "DigiKey" "311-5.10KHR"
+			(at 62.23 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "2"
 			(at 62.23 46.99 90)
 			(hide yes)
 			(show_name no)
