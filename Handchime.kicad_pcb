@@ -6444,6 +6444,18 @@
 				)
 			)
 		)
+		(property "Label" "P"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3254702f-382f-4c24-bd28-f16bae5f9aeb")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/85011ac8-a257-4ac2-a5c6-a3593e529ef0")
 		(sheetname "/")
@@ -7986,6 +7998,18 @@
 		)
 		(layer "B.Cu")
 		(uuid "2598d1a1-f3b2-4eb7-a648-948df106ccbf")
+	)
+	(gr_rect
+		(start 165.227 51.943)
+		(end 168.021 54.356)
+		(radius 0.127)
+		(stroke
+			(width 0.0762)
+			(type dot)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d59db9db-c1ed-4509-95ab-a5214a24e170")
 	)
 	(gr_poly
 		(pts

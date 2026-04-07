@@ -4943,7 +4943,7 @@
 		)
 		(uuid "fd413d39-399f-4f5d-9921-efe047970150")
 	)
-	(text_box "Optional — remove/do not place if using pin for matrix, etc."
+	(text_box "Optional RGB pull-up — remove/do not place if using pin for matrix, etc."
 		(exclude_from_sim no)
 		(at 238.76 45.72 0)
 		(size 17.78 15.24)
@@ -9579,6 +9579,17 @@
 			)
 		)
 		(property "DigiKey" "311-5.10KHR"
+			(at 247.65 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "P"
 			(at 247.65 48.26 90)
 			(hide yes)
 			(show_name no)
