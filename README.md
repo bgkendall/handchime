@@ -12,9 +12,9 @@
 | D2, D3    | D2, D3     | 2 × 1N4148 diodes           | SOD-123   | Matrix diodes for SW1/SW2                      |
 | F1        | F1         | 500mA fuse                  | 0603      | Current overload protection                    |
 | J1        | J1         | HRO TYPE-C-31-M-12 USB port |           | For the pluggings in of USB cables             |
-| R1, R2    | 1, 2       | 2 × 5100Ω resistors         | 0603      | USB power negotiation (Rd) resistors           |
-| R3        | 5k1Ω – P   | 5100kΩ resistor             | 0603      | OPTIONAL 5V pull-up for RGB data line¹         |
-| R4        | 1万Ω       | 10000Ω resistor             | 0603      | Prevention of unwanted boot state              |
+| R1, R2    | 1, 2       | 2 × 5.1kΩ resistors         | 0603      | USB power negotiation (Rd) resistors           |
+| R3        | 5k1Ω – P   | 5.1kΩ resistor              | 0603      | OPTIONAL 5V pull-up for RGB data line¹         |
+| R4        | 1万Ω       | 10kΩ resistor               | 0603      | Prevention of unwanted boot state              |
 | S1, S2    | *None*     | 2 × MX-compatible switches  | MX plate² | Keys for row 0, columns 0/1; mountings for PCB |
 | U1        | U1         | STM32C071GBU6               | UFQFPN-28 | ~~Braaaains!~~ Microcontroller                 |
 | U2        | U2         | PRTR5V0U2X                  | SOT-143   | ESD protection                                 |
