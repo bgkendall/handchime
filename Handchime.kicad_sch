@@ -1882,6 +1882,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1923,7 +1926,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1934,7 +1937,7 @@
 				)
 			)
 			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3676,7 +3679,7 @@
 					)
 				)
 				(pin input line
-					(at 27.94 -2.54 180)
+					(at 27.94 -3.81 180)
 					(length 2.54)
 					(name "${PIN20}"
 						(effects
@@ -3694,7 +3697,7 @@
 					)
 				)
 				(pin input line
-					(at 27.94 0 180)
+					(at 27.94 -1.27 180)
 					(length 2.54)
 					(name "${PIN21}"
 						(effects
@@ -3711,8 +3714,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 27.94 1.27 180)
+					(length 2.54)
+					(name "${PIN22}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
-					(at 27.94 2.54 180)
+					(at 27.94 3.81 180)
 					(length 2.54)
 					(name "RGB"
 						(effects
@@ -3721,7 +3742,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4055,8 +4076,12 @@
 		)
 		(symbol "power:+3V3"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4170,8 +4195,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3V3"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4492,8 +4516,12 @@
 		)
 		(symbol "power:GND"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4583,8 +4611,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4604,8 +4631,12 @@
 		)
 		(symbol "power:VBUS"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4624,7 +4655,7 @@
 				)
 			)
 			(property "Value" "VBUS"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4719,8 +4750,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "VBUS"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4740,8 +4770,12 @@
 		)
 		(symbol "power:VCC"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4760,7 +4794,7 @@
 				)
 			)
 			(property "Value" "VCC"
-				(at 0 3.81 0)
+				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4855,8 +4889,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "VCC"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5036,10 +5069,6 @@
 	(no_connect
 		(at 45.72 69.85)
 		(uuid "5aa62561-0b2d-42d5-af86-cd8f32b72bcc")
-	)
-	(no_connect
-		(at 179.07 40.64)
-		(uuid "bac88ed9-97ee-4f7d-87a9-238175dd6677")
 	)
 	(no_connect
 		(at 45.72 67.31)
@@ -5501,7 +5530,7 @@
 	)
 	(global_label "RGB"
 		(shape input)
-		(at 232.41 137.16 0)
+		(at 232.41 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5511,7 +5540,7 @@
 		)
 		(uuid "044e14ea-6aee-4e13-8a35-b83c23c7c98c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.4645 137.16 0)
+			(at 238.4645 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5763,6 +5792,54 @@
 			)
 		)
 	)
+	(global_label "PB0"
+		(shape input)
+		(at 232.41 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a66befe-5d54-4bf4-a465-8bd776a92f1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.3305 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C0"
+		(shape input)
+		(at 179.07 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a6a740d-6744-4fe7-b8e5-46d36da4c686")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.3146 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PA15"
 		(shape input)
 		(at 199.39 68.58 0)
@@ -5933,7 +6010,7 @@
 	)
 	(global_label "PA6"
 		(shape input)
-		(at 232.41 142.24 0)
+		(at 232.41 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5943,7 +6020,7 @@
 		)
 		(uuid "5f8825d4-d768-4b4f-9e5d-5d17606b2b2d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.0761 142.24 0)
+			(at 238.0761 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6029,7 +6106,7 @@
 	)
 	(global_label "RGB"
 		(shape input)
-		(at 179.07 50.8 180)
+		(at 179.07 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6039,7 +6116,7 @@
 		)
 		(uuid "7990290b-825f-414b-bbe7-a9808d974306")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.0155 50.8 0)
+			(at 173.0155 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6077,7 +6154,7 @@
 	)
 	(global_label "PA7"
 		(shape input)
-		(at 232.41 139.7 0)
+		(at 232.41 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6087,7 +6164,31 @@
 		)
 		(uuid "83881266-5645-4cdb-a4db-90c10d19349d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.9099 139.7 0)
+			(at 237.9099 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "R0"
+		(shape input)
+		(at 199.39 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83b9cd9a-39fd-4a23-b164-332227fe2124")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.2571 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6112,30 +6213,6 @@
 		(uuid "84bcf542-a7d9-43ff-996c-a7a3311fc710")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 245.7673 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "R0"
-		(shape input)
-		(at 179.07 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "89fa81a1-0f9c-4879-81fa-7e03324b7c12")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2029 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6627,6 +6704,30 @@
 			)
 		)
 	)
+	(global_label "PB0"
+		(shape input)
+		(at 179.07 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e515432b-091c-456f-a704-a12aaa808996")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.1495 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "PB7"
 		(shape input)
 		(at 193.04 149.86 270)
@@ -6648,30 +6749,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "C0"
-		(shape input)
-		(at 199.39 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0664ced-97f5-4196-aeee-183340a18e87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.1454 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -6979,7 +7056,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 259.08 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7222,7 +7299,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 57.15 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -7303,7 +7380,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 233.68 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7379,7 +7456,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 62.23 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7493,7 +7570,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 132.08 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7647,7 +7724,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 233.68 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8032,7 +8109,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 127 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8111,7 +8188,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 45.72 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8584,7 +8661,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 276.86 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8739,7 +8816,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 242.57 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8841,7 +8918,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode"
 			(at 136.652 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8944,7 +9021,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
 			(at 126.492 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9047,7 +9124,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 171.45 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9401,7 +9478,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 207.01 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9479,7 +9556,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 113.03 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -9556,7 +9633,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 247.65 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9669,7 +9746,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 34.29 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9920,7 +9997,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 251.46 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10180,7 +10257,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 145.542 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10337,7 +10414,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 118.872 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10416,7 +10493,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 204.47 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10494,7 +10571,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 189.23 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10825,6 +10902,17 @@
 				)
 			)
 		)
+		(property "PIN22" "B0"
+			(at 204.47 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "5f527f7b-6053-4c35-9562-1085e27c1d04")
 		)
@@ -10891,6 +10979,9 @@
 		(pin "15"
 			(uuid "1aa0a5fc-98f3-49a2-adc3-96ddc9dafcc3")
 		)
+		(pin "23"
+			(uuid "5ce4e343-db15-4eb0-a74b-3204b6798724")
+		)
 		(instances
 			(project "Handchime"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
@@ -10955,7 +11046,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 127 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11035,7 +11126,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 62.23 46.99 0)
 			(hide yes)
 			(show_name no)
