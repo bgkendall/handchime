@@ -1691,7 +1691,7 @@
 			(at -0.254 1.176 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0adb2af9-64fc-4ead-8afa-7f45c208e58e")
+			(uuid "64681fe6-dd44-401f-bed3-784548116a0f")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -1703,7 +1703,7 @@
 			(at -0.635 1.016 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f8de4550-1130-49b0-8a9f-1d2305dde4e9")
+			(uuid "4f079ec0-fe52-4081-b7d9-ab5db20459ce")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -1715,7 +1715,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8c73cde-f1d1-445e-b78a-6ac9a00111b7")
+			(uuid "eb64fbde-0233-4e05-b353-0a2cea6510ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +1726,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b125bb2a-0ee9-447a-8370-75ee130c4ee9")
+			(uuid "80c8f4ea-8ccd-4dcb-9a02-b698425af65a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2156,7 @@
 		(property "Reference" "F1"
 			(at 0 -1.016 90)
 			(layer "F.SilkS")
-			(uuid "609530eb-4db8-4cc3-893a-29f9dbd76dc5")
+			(uuid "7227a001-e6bb-43e1-9b91-1246bc6eed8d")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -2167,7 +2167,7 @@
 		(property "Value" "500mA"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "8acb8022-cd84-4177-8713-0fe7b53c0315")
+			(uuid "b1cc4907-4732-4f05-bba7-ad03df314d03")
 			(effects
 				(font
 					(size 1 1)
@@ -2179,7 +2179,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbe3f633-5140-4dd0-be25-ee578be87872")
+			(uuid "64536973-6100-49ed-864f-8bf5a6d19418")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2190,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d112341-f6dd-48c1-9843-a6a5e9dbd02c")
+			(uuid "c6e886f7-0ea8-43fd-a37f-36fadb05a548")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3530,7 +3530,7 @@
 		(property "Reference" "D1"
 			(at 0 0 0)
 			(layer "F.SilkS")
-			(uuid "4c1f6b66-266e-432a-8130-a597653e905d")
+			(uuid "51e64452-ef0a-4d37-8447-1736add90d9f")
 			(effects
 				(font
 					(size 0.6 0.6)
@@ -3541,7 +3541,7 @@
 		(property "Value" "PMEG2010EA"
 			(at 0.1 1.9 0)
 			(layer "F.Fab")
-			(uuid "bb7f8f16-f292-4d93-a4c8-2aa778ffa4fb")
+			(uuid "cad53a72-1c5e-4763-9b2e-70e8b61fc92c")
 			(effects
 				(font
 					(size 1 1)
@@ -3554,7 +3554,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "363740e2-ade3-4816-8ab0-c9495f81505f")
+			(uuid "2088e795-0206-44a9-a39a-ae4dd8b29db3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3567,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e75979f-4dd5-4798-94ca-465d8c103ff9")
+			(uuid "ba7d2c97-ad72-4b5e-a59d-ee1757566591")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11220,6 +11220,14 @@
 		(uuid "2cb608fc-efe1-431f-a103-2724febe254f")
 	)
 	(segment
+		(start 154.4194 49.4539)
+		(end 154.1792 49.2137)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "VCC")
+		(uuid "39762797-747f-44cf-bc0c-4c8083ecb300")
+	)
+	(segment
 		(start 146.304 50.9905)
 		(end 143.7765 53.518)
 		(width 0.254)
@@ -11252,6 +11260,14 @@
 		(uuid "5ff0ec5a-bc22-4f16-8d22-df21b8b0ef3a")
 	)
 	(segment
+		(start 155.16 49.4539)
+		(end 154.4194 49.4539)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "VCC")
+		(uuid "62f68685-0b84-4c85-8d16-88fb37e1f61a")
+	)
+	(segment
 		(start 141.402 53.924)
 		(end 140.728099 53.924)
 		(width 0.254)
@@ -11266,14 +11282,6 @@
 		(layer "F.Cu")
 		(net "VCC")
 		(uuid "7d3eca74-849e-4a15-a664-00cf7753a29b")
-	)
-	(segment
-		(start 154.9198 49.2137)
-		(end 155.16 49.4539)
-		(width 0.254)
-		(layer "F.Cu")
-		(net "VCC")
-		(uuid "809fba19-a91e-430b-a71e-3c8dfaaf75d0")
 	)
 	(segment
 		(start 167.894 48.006)
@@ -11324,6 +11332,14 @@
 		(uuid "bfac9987-08b1-4ac8-979b-e70f3d029920")
 	)
 	(segment
+		(start 154.1792 49.2137)
+		(end 153.4 49.2137)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "VCC")
+		(uuid "d645ce5f-da42-4f70-a331-0fcd4f20c562")
+	)
+	(segment
 		(start 143.7765 53.518)
 		(end 141.808 53.518)
 		(width 0.254)
@@ -11346,14 +11362,6 @@
 		(layer "F.Cu")
 		(net "VCC")
 		(uuid "eea72779-18ac-45f6-ac56-f0355c2620ae")
-	)
-	(segment
-		(start 153.4 49.2137)
-		(end 154.9198 49.2137)
-		(width 0.254)
-		(layer "F.Cu")
-		(net "VCC")
-		(uuid "f08f14d5-45f8-4c5c-9094-92b75f9a2250")
 	)
 	(via
 		(at 167.894 48.768)
