@@ -5,10 +5,10 @@
 	(uuid "34400e51-cf83-464a-b3ec-e9a28a972a27")
 	(paper "A4")
 	(title_block
-		(title "ISOCHet")
-		(date "2024-04-24")
-		(rev "v1.0")
-		(company "u/bgkendall")
+		(title "HandSTaMp")
+		(date "2026-04-11")
+		(rev "v2.0")
+		(company "bgkendall")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
