@@ -195,7 +195,7 @@
 		(property ki_fp_filters "QFN*4x4mm*P0.5mm*")
 		(path "/5571a1e1-ef8a-48da-b1fd-5e973ee66cb8")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -968,7 +968,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/ffba12ca-aceb-4c79-88fd-47da836cc40f")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1423,7 +1423,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9da34375-4f6d-4a28-87d2-0ee70759a4d8")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1586,7 +1586,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/79f5d88f-716f-4c69-bace-ce96b0ae8436")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1774,7 +1774,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2dd35787-cbce-457b-b066-290022820cba")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1952,7 +1952,7 @@
 		(property ki_fp_filters "SOT?143*")
 		(path "/3f5ac4f9-039c-40cb-a2e9-b2881fd8913b")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2226,7 +2226,7 @@
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/74ee0d29-c278-4e28-9431-626e41ed0884")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2483,7 +2483,7 @@
 		)
 		(path "/70919a86-c800-42c4-8364-c5235b62eb24")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2768,7 +2768,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/008465a1-50ee-40b0-8291-a1d67e58a999")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3054,7 +3054,7 @@
 		(property ki_fp_filters "SOT?23?3*")
 		(path "/0e4f114f-a1ae-483d-9a8a-8c923149721f")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3426,7 +3426,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0e2b3d24-f639-4a7d-bd51-5ac287945d1c")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3604,7 +3604,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/739799ea-4afe-4c9d-9279-12f558b50420")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3920,7 +3920,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1acc96d6-32ba-4ed7-812a-f72c43fe6534")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4069,7 +4069,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/78d356c5-f535-47a8-aa08-7ba472ac12b7")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4231,7 +4231,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3880e6c1-7efa-4bc0-8dd7-c267cf245614")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4452,7 +4452,7 @@
 			)
 		)
 	)
-	(footprint "Project Library:Handchime"
+	(footprint "Project Library:HandSTaMp"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "a6058938-1d75-423c-b817-526ee9addf8c")
@@ -4718,7 +4718,7 @@
 		)
 		(path "/cf1badd4-2ad7-4c1d-a357-a7bc58eeec26")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6298,7 +6298,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e549c6a2-4113-4c95-9b2c-190f991d1e46")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6497,7 +6497,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/85011ac8-a257-4ac2-a5c6-a3593e529ef0")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6670,7 +6670,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a17c185e-88cc-4e3c-8df0-6d7f9deb6fa7")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6819,7 +6819,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f931447c-df7f-4688-9c3b-06b3d475b231")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6997,7 +6997,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/77a0ae9b-4bc0-4772-a529-2998fbc52481")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7289,7 +7289,7 @@
 		)
 		(path "/1325a808-2258-457a-bac8-d2990a2c2f31")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7579,7 +7579,7 @@
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/d6a4c064-77ae-4368-97e3-6be11fc93a8f")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7680,7 +7680,7 @@
 		)
 		(path "/87e9de80-764a-43e3-b463-ec71c5f78cce")
 		(sheetname "/")
-		(sheetfile "Handchime.kicad_sch")
+		(sheetfile "HandSTaMp.kicad_sch")
 		(units
 			(unit
 				(name "A")

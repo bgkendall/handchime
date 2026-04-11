@@ -3263,7 +3263,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Project Library:Handchime"
+		(symbol "Project Library:HandSTaMp"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -3322,7 +3322,7 @@
 					)
 				)
 			)
-			(symbol "Handchime_0_1"
+			(symbol "HandSTaMp_0_1"
 				(rectangle
 					(start -25.4 7.62)
 					(end 25.4 -7.62)
@@ -3335,7 +3335,7 @@
 					)
 				)
 			)
-			(symbol "Handchime_1_1"
+			(symbol "HandSTaMp_1_1"
 				(pin power_out line
 					(at -2.54 10.16 270)
 					(length 2.54)
@@ -6993,7 +6993,7 @@
 			(uuid "712ec7c1-1e5c-46a9-9f1b-0212c53f7f06")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "D3")
 					(unit 1)
@@ -7071,7 +7071,7 @@
 			(uuid "cd781e01-fcaa-4add-99d2-ec8e73a5d3fb")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR04")
 					(unit 1)
@@ -7153,7 +7153,7 @@
 			(uuid "97df8148-4981-4d1b-a7f2-bac01cbd3eb0")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "C4")
 					(unit 1)
@@ -7237,7 +7237,7 @@
 			(uuid "7d7b24b5-a173-4840-af59-4637f7b5dc21")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "U3")
 					(unit 1)
@@ -7317,7 +7317,7 @@
 			(uuid "95a45a10-31de-48c1-8318-7bb933f44749")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "SW2")
 					(unit 1)
@@ -7395,7 +7395,7 @@
 			(uuid "ff0fd75b-9982-4be6-96af-66a99feede95")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR013")
 					(unit 1)
@@ -7507,7 +7507,7 @@
 			(uuid "80ef9eed-0e60-4605-a072-9e41f5987fc2")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "R1")
 					(unit 1)
@@ -7585,7 +7585,7 @@
 			(uuid "b400bb41-89bb-4334-bc81-33a8401f96e9")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR09")
 					(unit 1)
@@ -7663,7 +7663,7 @@
 			(uuid "5818f3ef-7701-479b-91bc-159f7d8eb46a")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR028")
 					(unit 1)
@@ -7775,7 +7775,7 @@
 			(uuid "04521b79-ade8-4417-b303-5f318ce9e497")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "R4")
 					(unit 1)
@@ -7853,7 +7853,7 @@
 			(uuid "b099cdc4-4e5d-485f-b4a8-1cf268098de2")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR027")
 					(unit 1)
@@ -7938,7 +7938,7 @@
 			(uuid "8de01e3f-5e67-4507-8a99-fc6871eb4ca3")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "J3")
 					(unit 1)
@@ -8046,7 +8046,7 @@
 			(uuid "d02412f8-3009-4e55-9e4f-1748a9b73c94")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "U2")
 					(unit 1)
@@ -8124,7 +8124,7 @@
 			(uuid "4ef4321e-afaa-405b-8e31-35d96bd734b3")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR07")
 					(unit 1)
@@ -8203,7 +8203,7 @@
 			(uuid "8dc33bfd-3f33-4faf-9bc5-df25e522e897")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR01")
 					(unit 1)
@@ -8364,7 +8364,7 @@
 			(uuid "58de3340-0575-4079-97b8-f8f3d109d635")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "U1")
 					(unit 1)
@@ -8442,7 +8442,7 @@
 			(uuid "0363b147-2f24-4058-81b0-f24077092b41")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR0102")
 					(unit 1)
@@ -8520,7 +8520,7 @@
 			(uuid "b6005d07-1476-4311-b1d9-46dae0b44603")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR030")
 					(unit 1)
@@ -8598,7 +8598,7 @@
 			(uuid "a17fa1c4-ada0-406b-9984-78e7a547131c")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR019")
 					(unit 1)
@@ -8676,7 +8676,7 @@
 			(uuid "8b9b9dd8-96c2-4447-8634-5f4662d73561")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR031")
 					(unit 1)
@@ -8754,7 +8754,7 @@
 			(uuid "6299d0e4-ea57-4407-b54b-e996e3716625")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR08")
 					(unit 1)
@@ -8856,7 +8856,7 @@
 			(uuid "dd0dc95d-7479-42af-80d7-081752a0958e")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "SW0")
 					(unit 1)
@@ -8958,7 +8958,7 @@
 			(uuid "e376138a-dbb8-4816-8482-f5f065385da0")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "D1")
 					(unit 1)
@@ -9061,7 +9061,7 @@
 			(uuid "1c3589a7-6fb0-47e5-8424-7d9abe80d161")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "F1")
 					(unit 1)
@@ -9139,7 +9139,7 @@
 			(uuid "d546a3ce-e097-4db2-a12e-f467a881a81a")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR029")
 					(unit 1)
@@ -9243,7 +9243,7 @@
 			(uuid "712ec7c1-1e5c-46a9-9f1b-0212c53f7f07")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "D2")
 					(unit 1)
@@ -9323,7 +9323,7 @@
 			(uuid "af3f0b9e-04c4-4d8e-bbdf-6d90c6042fd4")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "C5")
 					(unit 1)
@@ -9415,7 +9415,7 @@
 			(uuid "8c3cd634-08e0-4e88-9a9c-3f96ac40f404")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "C1")
 					(unit 1)
@@ -9493,7 +9493,7 @@
 			(uuid "71addfb8-7eba-4d13-98d2-a119e9d449d1")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR011")
 					(unit 1)
@@ -9571,7 +9571,7 @@
 			(uuid "2e3848ce-bcde-4590-a45f-9c5b063be25c")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR012")
 					(unit 1)
@@ -9684,7 +9684,7 @@
 			(uuid "a14695b0-81b3-49c0-8d63-df6ca6f26026")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "R3")
 					(unit 1)
@@ -9764,7 +9764,7 @@
 			(uuid "95a45a10-31de-48c1-8318-7bb933f4474c")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "SW1")
 					(unit 1)
@@ -9842,7 +9842,7 @@
 			(uuid "97dba500-de00-433c-9657-c4be307bab1c")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR025")
 					(unit 1)
@@ -9935,7 +9935,7 @@
 			(uuid "35d48c9a-9e91-4f5a-b829-507cb0bd48ec")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "C2")
 					(unit 1)
@@ -10037,7 +10037,7 @@
 			(uuid "12ea4d32-a8d1-4552-a4eb-e698125a0593")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "R5")
 					(unit 1)
@@ -10115,7 +10115,7 @@
 			(uuid "666ce685-40c7-4448-b85b-f97871239b45")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR024")
 					(unit 1)
@@ -10193,7 +10193,7 @@
 			(uuid "c8897551-03dd-45ca-9400-f4babcf2aa63")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR026")
 					(unit 1)
@@ -10272,7 +10272,7 @@
 			(uuid "60e6da04-6c80-4be3-b1c0-60a0db9c1be7")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR03")
 					(unit 1)
@@ -10350,7 +10350,7 @@
 			(uuid "deb10a70-e98a-4d7c-9e5b-9af5bb61fb79")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR010")
 					(unit 1)
@@ -10429,7 +10429,7 @@
 			(uuid "8dc33bfd-3f33-4faf-9bc5-df25e522e898")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR02")
 					(unit 1)
@@ -10508,7 +10508,7 @@
 			(uuid "2dec03dc-79b6-4727-8432-9b5083db0d61")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR022")
 					(unit 1)
@@ -10586,7 +10586,7 @@
 			(uuid "ef7e62bf-f5a3-431f-89cf-587bc089c944")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR014")
 					(unit 1)
@@ -10664,7 +10664,7 @@
 			(uuid "fc333b91-af1d-4b63-a6a3-3b86ee3d3ac3")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "#PWR032")
 					(unit 1)
@@ -10673,7 +10673,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project Library:Handchime")
+		(lib_id "Project Library:HandSTaMp")
 		(at 204.47 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -10704,7 +10704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project Library:Handchime"
+		(property "Footprint" "Project Library:HandSTaMp"
 			(at 204.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10983,7 +10983,7 @@
 			(uuid "5ce4e343-db15-4eb0-a74b-3204b6798724")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "J2")
 					(unit 1)
@@ -11064,7 +11064,7 @@
 			(uuid "670cda8c-ae24-4219-a387-54e4f8b7d1cf")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "NT1")
 					(unit 1)
@@ -11177,7 +11177,7 @@
 			(uuid "ff5477e3-7953-4e33-af0c-451602d247fc")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "R2")
 					(unit 1)
@@ -11258,7 +11258,7 @@
 			(uuid "0b6aa87b-41dc-4b01-a320-aa05a5627ffc")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "C3")
 					(unit 1)
@@ -11383,7 +11383,7 @@
 			(uuid "80439caa-edb6-4280-8834-97bb88e4abca")
 		)
 		(instances
-			(project "Handchime"
+			(project "HandSTaMp"
 				(path "/34400e51-cf83-464a-b3ec-e9a28a972a27"
 					(reference "J1")
 					(unit 1)
