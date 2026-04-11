@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v1.0"
+      "sch_revision": "v2.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -494,7 +494,7 @@
     ]
   },
   "meta": {
-    "filename": "Handchime.kicad_pro",
+    "filename": "HandSTaMp.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -697,8 +697,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Handchime.kicad_sch",
-        "name": "Handchime",
+        "filename": "HandSTaMp.kicad_sch",
+        "name": "HandSTaMp",
         "uuid": "34400e51-cf83-464a-b3ec-e9a28a972a27"
       }
     ],
@@ -708,7 +708,7 @@
   "sheets": [
     [
       "34400e51-cf83-464a-b3ec-e9a28a972a27",
-      "Handchime"
+      "HandSTaMp"
     ]
   ],
   "text_variables": {},

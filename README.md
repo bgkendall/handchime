@@ -1,4 +1,4 @@
-# Handchime
+# HandSTaMp
 
 ## Bill of Materials
 
